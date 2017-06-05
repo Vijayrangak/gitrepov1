@@ -4,7 +4,6 @@ SET ANSI_NULLS ON
 GO
 CREATE PROCEDURE [dbo].[usp_listWidgets]
 AS
-    SELECT  RecordID ,
-            [Description]
+    SELECT  *
     FROM    dbo.Widgets;
 GO

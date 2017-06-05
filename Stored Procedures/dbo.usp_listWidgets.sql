@@ -4,6 +4,6 @@ SET ANSI_NULLS ON
 GO
 CREATE PROCEDURE [dbo].[usp_listWidgets]
 AS
-    SELECT  *
+    SELECT  *, 'Ranga' AS Col1
     FROM    dbo.Widgets;
 GO

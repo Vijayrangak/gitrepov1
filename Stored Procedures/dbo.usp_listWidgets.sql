@@ -5,6 +5,6 @@ GO
 CREATE PROCEDURE [dbo].[usp_listWidgets]
 AS
     SELECT  RecordID ,
-            Description
+            [Description]
     FROM    dbo.Widgets;
 GO
